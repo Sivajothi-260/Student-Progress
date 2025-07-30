@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fce9d4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #800000;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.title-box {
+    text-align: center;
+}
+
+nav {
+    background-color: #a05a2c;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #874421;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c2e14;
+}
+
+.college-logo {
+    height: 150px;        /* adjust size here (e.g. 100px, 120px) */
+    margin-right: 20px;  /* some gap between logo and college name */
+    float: left;         /* align to the left */
+}
+/* success page */
+.success-box{
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+    background: #fff;
+    padding: 40px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.home-btn{
+    display: inline-block;
+    margin-top: 25px;
+    background:#874421;
+    color:#fff;
+    padding:10px 25px;
+    border-radius:8px;
+    text-decoration:none;
+}
+.home-btn:hover{background:#5c2e14;}
